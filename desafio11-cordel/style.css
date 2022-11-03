@@ -1,0 +1,65 @@
+@charset "UFTP-8";
+
+
+:root {
+        --cor0: #6317B3;
+        --cor1: #A854FF;
+        --cor2: #FFFF55;
+        --cor3: #FFFF6E;
+        --cor4: #b1b128;
+        --cor5: #ffffdc;
+        --cor6: black;
+}
+
+* { 
+    margin: 0px;
+    padding: 0px;  
+
+}
+
+html, body {
+    min-width: 100vh;
+    background-color: darkgray;
+}
+header{
+
+    background-color: var(--cor0);
+    color: var(--cor2);
+    text-align: center;    
+}
+header > h1 {
+    padding-top: 35px;
+    font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 35px;
+}
+header a, footer a {
+    color: white;
+    text-decoration: none; 
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+    color:  #ffff55;
+}
+
+section.normal{
+     background-color: #ffffff;
+     color: #000000;
+}
+
+section.imagem {
+    background-color: 
+
+}
+
+
+
+
+footer{
+    background-color: var(--cor0);
+    color: var(--cor6);
+    text-align: center;
+    padding: 5px;
+}
