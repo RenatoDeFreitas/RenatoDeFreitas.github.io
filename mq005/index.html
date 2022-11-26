@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body style="overflow-y: hidden;">
+    <header>
+        <h1>Site: cabeçalho dinâmico</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()" >menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">01-Ambiente</a></li>
+                <li><a href="#">02-Estratégia</a></li>
+                <li><a href="#">03-Projeto</a></li>
+                <li><a href="#">04-Tarefas</a></li>
+                <li><a href="#">05-KPI's</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Teste de menus dinâmicos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, quas soluta? Adipisci, dicta iure sequi quas aspernatur sunt optio iusto dolores corporis! Mollitia praesentium non deserunt molestiae saepe assumenda asperiores.
+            Perspiciatis fugit praesentium aspernatur cumque dignissimos quia veritatis soluta voluptates dolorem cupiditate magni dolore dolores ducimus sit suscipit unde accusantium tempore, omnis a similique ad deserunt, rem ut. Accusantium, nihil?
+            Delectus eius cum totam architecto exercitationem nobis alias molestias eaque illo quaerat ratione tempore accusantium amet, nam magnam quae asperiores corrupti necessitatibus dolores ut quam reiciendis. Voluptate, iure? Laborum, laudantium?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quas nostrum dolor officiis corrupti molestiae porro. Voluptatum neque dolorem, eos perferendis nihil minus dolorum ullam aliquam placeat sit temporibus id!
+            Quia sint fugit repellat sed, esse rem aliquid reprehenderit architecto, tempora expedita earum porro vel facere placeat possimus magni ab culpa cum corrupti quas. Laborum perferendis quis facilis blanditiis id?
+            Fuga rem, quasi, magni dignissimos veritatis adipisci asperiores blanditiis sunt maiores natus iusto veniam exercitationem! Aspernatur, doloremque necessitatibus! Dolores totam accusamus, modi optio odit in? Aperiam et maxime ipsa totam.
+            Consectetur delectus corporis doloribus aspernatur eligendi minus alias enim? Cupiditate quod fugit recusandae delectus fugiat beatae corporis sed praesentium nostrum voluptatem id doloribus ducimus reprehenderit, autem odio. Rerum, odit itaque!</p>
+
+
+        </article>
+
+
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display ='none'
+            } else {
+                itens.style.display ='block'
+            }
+            
+        }
+    </script>
+
+</body>
+</html>
