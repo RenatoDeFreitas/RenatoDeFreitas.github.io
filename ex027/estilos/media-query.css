@@ -18,25 +18,33 @@
         float: right;
         width: 70%;
     }
+    div#formulario > p {
+        font-size: 1.2em;
+    }
 }
+
 
 @media screen and (min-width: 992px) {
     
     body {
-        background-image: linear-gradient(to top, #ECFC51, #FC8044,#3A6E58);
+        background-image: linear-gradient(to top, #b35b2f,#3A6E58);
     } 
     
     section#login{
         width: 950px;
     }
     section#login >div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login > div#formulario{
-        float:right;
+        float:left;
         width: 50%;
 
     }
+    div#formulario > p {
+        font-size: 1.8em;
+    }
+   
 }
