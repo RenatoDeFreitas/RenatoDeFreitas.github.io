@@ -1,0 +1,38 @@
+body {
+    background: rgba(51, 33, 156, 0.938);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(40, 43, 3, 0.541);
+}
+
+div {
+    text-align: left;
+    padding: 7px;
+}
+
+p>input#fnum {
+    width: 180px;
+}
+select#flista {
+    width: 150px;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
